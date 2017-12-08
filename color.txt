@@ -1,6 +1,6 @@
 gery #F2F2F2
 turquoise #1abc9c
-peter river #3498db
+peter river #FF4242
 mat black #202226
 white #FFFFFF
 secondary color #7f8c8d
