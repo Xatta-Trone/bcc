@@ -11,7 +11,7 @@ img{
     height: 100%;
 }
 a{color: #FF4242;}
-a:hover{color: #fff;}
+a:hover{color: #202226;}
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
     color: #fff !important;
@@ -33,6 +33,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder {
     opacity: 0.5;  
 }
 
+.oh{overflow: hidden;}
 
 .grey-bg{background-color: #F2F2F2;}
 
@@ -57,7 +58,7 @@ nav.nav-bar{
     color:  #202226;
 }
 .navbar.lightheader{
-    padding: 0;
+    padding: 0 18px;
 }
 .lightheader{
     background-color: #fff;
@@ -467,3 +468,100 @@ Return to top
 /* =============
 Return to top end
 ========== */
+
+
+.team-section.section-padding {
+    padding-top:  100px;
+}
+
+.page-meta {
+    position:  relative;
+    background: #202226;
+    color: #FF4242;
+    padding: 40px 0;
+}
+
+.page-meta span {
+    position:  absolute;
+    left: 0;
+    opacity:  0.8;
+    top: 50%;
+    transform:  translateY(-50%);
+    color:  #fff;
+}
+
+.page-meta h2 {
+    text-align:  center;
+    margin-bottom:  0;
+    font-size:  50px;
+}
+
+.team-member-img {
+    height: 250px;
+    background-size:  cover;
+    background-position:  center top;
+    background-color:  #333;
+    position: relative;
+}
+
+.member-meta {
+    border: 1px solid #202226;
+    margin-top:  20px;
+    text-align:  center;
+    padding-bottom: 15px;
+}
+
+.member-meta .member-name {
+    margin-top:  -20px;
+    background:  #fff;
+    display:  inline-block;
+    /* text-align:  center; */
+    padding: 0 10px;
+}
+
+.member-meta p {
+    margin: 0;
+}
+
+.single-team-member {
+    margin: 20px 0;
+}
+
+.contact-links {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: #202226;
+    padding: 10px 0;
+    transition: all  0.3s;
+    visibility: hidden; 
+    opacity: 0;
+}
+
+.contact-links a {
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin:  0 5px;
+
+}
+
+.contact-links a:hover {
+    color:  #fff;
+}
+
+.single-team-member:hover .contact-links {
+    visibility:visible;
+    opacity: 1;
+}
+.single-team-group .header-text {
+    font-size:  25px;
+    /* letter-spacing:  5px; */
+}
+
+.single-team-group .col-md-2 {
+    margin-top:  20px;
+    overflow:  hidden;
+}
