@@ -10,7 +10,7 @@ img{
     width: 100%;
     height: 100%;
 }
-a{color: #FF4242;}
+a{color: #FF4242;transition: 0.3s;}
 a:hover{color: #202226;}
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
@@ -470,8 +470,9 @@ Return to top end
 ========== */
 
 
-.team-section.section-padding {
+.team-section{
     padding-top:  100px;
+    padding-bottom: 0;
 }
 
 .page-meta {
@@ -509,15 +510,20 @@ Return to top end
     margin-top:  20px;
     text-align:  center;
     padding-bottom: 15px;
+    letter-spacing: 1px;
 }
 
-.member-meta .member-name {
-    margin-top:  -20px;
-    background:  #fff;
-    display:  inline-block;
-    /* text-align:  center; */
-    padding: 0 10px;
+
+.member-name {
+  margin-top: -20px;
 }
+.member-name h3 {
+  background: #fff;
+  sdi: ;
+  display: inline-block;
+  padding: 0 10px;
+}
+
 
 .member-meta p {
     margin: 0;
@@ -525,6 +531,9 @@ Return to top end
 
 .single-team-member {
     margin: 20px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px #ddd;
+    background-color: #fff;
 }
 
 .contact-links {
@@ -562,6 +571,84 @@ Return to top end
 }
 
 .single-team-group .col-md-2 {
-    margin-top:  20px;
+    padding-top:  35px;
     overflow:  hidden;
 }
+
+
+.single-team-group:nth-child(2n) {
+  background: #f9f9f9;
+}/* 
+.single-team-group:nth-child(2n) .single-team-member {
+  box-shadow: 0 0 5px #fff;
+} */
+
+
+.bcc-table {
+    display:  table;
+    width:  100%;
+    height:  100%;
+}
+
+.bcc-tcell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.single-programe-item-wapper {
+    height: 400px;
+    background-color:  #333;
+    /* border:  1px solid #fff; */
+    padding: 40px;
+}
+
+.all-programe-wrapper {
+    margin:  40px 0;
+}
+
+.single-programe-item-wapper {
+    position:  relative;
+    background-size:  cover;
+    background-position:  center;
+    z-index:  1;
+    transition: 0.5s;
+}
+
+.single-programe-item-wapper:before {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    content:  '';
+    background: #202226;
+    opacity:  0.8;
+    z-index:  -1;/* 
+    outline: 1px solid #fff;
+    outline-offset: -35px; */
+}
+
+.single-programe-item a {
+    display:  block;
+    /* height:  100%; */
+    line-height: 330px;
+}
+
+.single-programe-item h1 {
+    margin:  0;
+}
+
+.single-programe-item a:hover {
+    color:  #fff;
+    text-decoration:  none;
+}
+
+.single-programe-item-wapper:hover {
+    transform: scale(1.03);
+}
+
+.single-programe-item {
+    border:  1px solid #fff;
+    position: relative;
+}
+

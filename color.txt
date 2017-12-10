@@ -4,3 +4,5 @@ peter river #FF4242
 mat black #202226
 white #FFFFFF
 secondary color #7f8c8d
+
+hover color e4dddd
