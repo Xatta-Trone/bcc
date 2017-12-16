@@ -16,14 +16,29 @@ $(document).ready(function(){
 	});
 
 
-	$(".hero-slides").owlCarousel({
+	$(".hero-slides, .programe-slides").owlCarousel({
 		items:1,
 		autoplay:true,
 		loop:true,	
 	});
+/*
+	$(".programe-slides").owlCarousel({
+		items:1,
+		autoplay:false,
+		loop:true,	
+	});*/
+
+
 	$(".recent-news-slide").owlCarousel({
 		items:3,
 		margin:5,
+		autoplay:false,
+		loop:true,	
+	});
+
+	$(".company-logo-wrapper").owlCarousel({
+		items:5,
+		margin:20,
 		autoplay:false,
 		loop:true,	
 	});
