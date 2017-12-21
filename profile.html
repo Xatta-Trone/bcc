@@ -12,25 +12,23 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 <!-- nav start -->
 	<nav class="navbar navbar-expand-md fixed-top bcc-nav-bg" id="sticker">
 		<div class="container">
 			<!-- put your logo here -->
-			<a href="index.html" class="navbar-brand bcc-nav-brand"><img src="img/bcc-logo.png" title="BUET Career Club" alt="BUET Career Club"></a>
+			<a href="index.html" class="navbar-brand bcc-nav-brand"><img src="img/bcc-logo.png" title="BUET Career Club" alt="BUET Career Club">BCC</a>
 
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
 				<i class="fa fa-bars"></i>
 			</button>
 			<!-- nav-links -->
-			<div class="collapse navbar-collapse" id="navbarResponsive">
+			<div class="collapse navbar-collapse navbar-expand-md" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="index.html" class="nav-link">Home</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">About</a>
+						<a href="index.html" class="nav-link active">Home</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a href="" class="nav-link dropdown-toggle" id="Programs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
@@ -55,7 +53,10 @@
 						<a href="blog.html" class="nav-link">Blog</a>
 					</li>
 					<li class="nav-item">
-						<a href="contact.html" class="nav-link active">Xatta</a>
+						<a href="profile.html" class="nav-link">Xatta</a>
+					</li>
+					<li class="nav-item">
+						<a href="profile.html" class="nav-link">Login</a>
 					</li>
 					<li class="nav-item">
 						<a href="contact.html" class="nav-link">Contact</a>
@@ -107,6 +108,10 @@
 						      <div class="modal-body">
 						        <form>
 						          <div class="form-group">
+						            <label for="recipient-name" class="form-control-label">Upload Photo:</label>
+						            <input type="file" class="form-control" id="recipient-name">
+						          </div>
+						          <div class="form-group">
 						            <label for="recipient-name" class="form-control-label">Name:</label>
 						            <input type="text" class="form-control" id="recipient-name" value="Xatta trone">
 						          </div>
@@ -134,40 +139,16 @@
 					</div>
 					<div class="user-contact-section">
 						<div class="row">
-							<div class="col-md-4"><a href="#"><i class="fa fa-facebook"></i></a></div>
-							<div class="col-md-4"><a href="#"><i class="fa fa-linkedin"></i></a></div>
-							<div class="col-md-4"><a href="#"><i class="fa fa-envelope"></i></a></div>
+							<div class="col-4"><a href="#"><i class="fa fa-facebook"></i></a></div>
+							<div class="col-4"><a href="#"><i class="fa fa-linkedin"></i></a></div>
+							<div class="col-4"><a href="#"><i class="fa fa-envelope"></i></a></div>
 						</div>
 					</div>
 
 					<div class="user-posts text-center section-padding">
 						<h1>Posts by XattaTrone</h1>
 						<div class="row no-gutters">
-							<div class="col-md-4">
-								<div class="single-news-item-wrapper">
-									<div class="news-img-container" style="background-image: url(img/ne1.jpg);"></div>
-									<p>Event Category</p>
-									<div class="news-meta">
-										<h3>Lorem ipsum dolor sit amet.</h3>
-										<span><i class="fa fa-user-o"></i> Xatta Trone</span>
-										<span><i class="fa fa-clock-o"></i> 11 Dec 2017</span>
-									</div>
-									<a href="single-news-post.html" class="news-link"></a>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="single-news-item-wrapper">
-									<div class="news-img-container" style="background-image: url(img/ne1.jpg);"></div>
-									<p>Event Category</p>
-									<div class="news-meta">
-										<h3>Lorem ipsum dolor sit amet.</h3>
-										<span><i class="fa fa-user-o"></i> Xatta Trone</span>
-										<span><i class="fa fa-clock-o"></i> 11 Dec 2017</span>
-									</div>
-									<a href="single-news-post.html" class="news-link"></a>
-								</div>
-							</div>
-							<div class="col-md-4">
+							<div class="col-md-6 col-lg-4">
 								<div class="single-news-item-wrapper">
 									<div class="news-img-container" style="background-image: url(img/ne1.jpg);"></div>
 									<p>Event Category</p>
@@ -230,18 +211,20 @@
 	</div>
 </div>
 
+
 <div class="minifooter">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
 				&copy; all rights reserved BCC-2017
 			</div>
-			<div class="col-md-6 text-right">
+			<div class="col-md-6 text-md-right">
 				Developed By <a href="">Monzurul Islam</a> &amp; <a href="">Kinjol Barua</a>
 			</div>
 		</div>
 	</div>
 </div>
+
 
 
 <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>

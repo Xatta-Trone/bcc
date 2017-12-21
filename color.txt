@@ -1,5 +1,4 @@
 gery #F2F2F2
-turquoise #1abc9c
 peter river #FF4242
 mat black #202226
 white #FFFFFF
