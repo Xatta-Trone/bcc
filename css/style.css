@@ -10,6 +10,7 @@ img{
     width: 100%;
     height: 100%;
 }
+.pb-30{padding-bottom: 30px;}
 a{color: #FF4242;transition: 0.3s;}
 a:hover{color: #202226;text-decoration: none;}
 
@@ -27,7 +28,13 @@ input::-moz-placeholder,textarea::-moz-placeholder {  /* Firefox 19+ */
     color: #fff !important;
     opacity: 0.5;  
 }
-
+.custom-control-input:checked~.custom-control-indicator {
+    background-color: #FF4242;
+}
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #FF4242;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #FF4242;
+}
 .btn.focus, .btn:focus{box-shadow: unset;
 }
  
@@ -1157,6 +1164,15 @@ background-size: cover;background-position:center; background-attachment: fixed;
     color:  #fff;
 }
 
+.contact-page-area .custom-select {
+  border: none;
+  border-bottom: 2px solid #FF4242;
+  width: 100%;
+  border-radius: 0;
+  /*! color: #4C4C6C; */
+  /*! opacity: 0.6; */
+  margin-bottom: 20px;
+}
 .other-contact-area {
     background:  #fff;
     color:  #333;
