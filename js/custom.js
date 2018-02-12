@@ -25,7 +25,7 @@ $(document).ready(function(){
 /*
 	$(".programe-slides").owlCarousel({
 		items:1,
-		autoplay:false,
+		autoplay:true,
 		loop:true,	
 	});*/
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
             }
         },
 		margin:5,
-		autoplay:false,
+		autoplay:true,
 		loop:true,
 		nav:true,
 		navText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
@@ -63,8 +63,8 @@ $(document).ready(function(){
 		loop:true,
 		autoplayTimeout:1100,
 	});
-
-	$('#clock').countdown('2018/01/01').on('update.countdown', function(event) {
+						// year/month/day
+	$('#clock').countdown('2018/02/01').on('update.countdown', function(event) {
   var $this = $(this).html(event.strftime(''
 				+ '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Day%!d</span></div>'
 				+ '<div class="counter-box"><div class="number">%H</div><span>Hours</span></div>'

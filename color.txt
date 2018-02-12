@@ -5,3 +5,12 @@ white #FFFFFF
 secondary color #7f8c8d
 
 hover color e4dddd
+L}d]xaKg1Lh^
+
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'shoptors_pl');
+define('DB_PASS', 'X@ttaTrone');
+define('DB_NAME', 'shoptors_xt');
+
+^ZIR8}jik6zu
